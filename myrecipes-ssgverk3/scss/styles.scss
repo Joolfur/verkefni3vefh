@@ -1,0 +1,32 @@
+
+
+$bcolor: bisque;
+$font: 'Merriweather', serif;
+$fontcolor: rgb(3, 116, 150);
+
+body {
+    background-color: $bcolor;
+    font-family: $font;
+}
+h1, h2, h3 {
+    color:$fontcolor
+}
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.card{
+    background-color: white;
+    padding: 1em;
+    border: white;
+    border-radius: 25px;
+    margin: 1em;
+}
+.mybutton {
+    background: #f7786b;
+    font-size: 0.75em;
+}
+
+// Ná í layot síðuna
+@import 'layout.scss'; 
